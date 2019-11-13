@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { mediaQueries } from '../../theme/theme';
+import { mediaQueries, colors } from '../../theme/theme';
 
 export const Container = styled.div`
   width: 60%;
@@ -63,3 +63,9 @@ export const ButtonContainer = styled.div`
   margin: 3rem auto 0 auto;
 
 `;
+
+export const StripeTest = styled.div`
+  margin-top: 3rem;
+  text-align: center;
+  font-size: 1.6rem;
+`
