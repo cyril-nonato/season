@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Directory Item test Should match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.c0:hover {
+  -webkit-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  transform: translateY(-2px);
+}
+
+.c0:active {
+  -webkit-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.c0:link,
+.c0:visited {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+
+.c1 {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
+
+.c2 {
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:700px) {
+  .c1 {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+<a
+    class="c0"
+    data-testid="link"
+    href="/url"
+  >
+    <img
+      alt="some-name"
+      class="c1"
+      data-testid="image"
+      src="some-logo"
+    />
+    <h3
+      class="c2"
+      data-testid="h3"
+    >
+      some-name
+    </h3>
+  </a>
+</DocumentFragment>
+`;

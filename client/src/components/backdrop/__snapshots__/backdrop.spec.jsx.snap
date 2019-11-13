@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Backdrop Component Test Match the snapshot 1`] = `
+<DocumentFragment>
+  .c0 {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255,255,255,.5);
+  z-index: 5;
+  top: 0;
+  left: 0;
+}
+
+<div
+    class="c0"
+  />
+</DocumentFragment>
+`;

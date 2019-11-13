@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collection Test Should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdVaJa jXpelC"
+  >
+    <h3
+      class="sc-bwzfXH bCkXwr"
+      data-testid="brand"
+    >
+      some brand
+    </h3>
+    <ul
+      class="sc-htpNat iCXrmo"
+    >
+      <div />
+    </ul>
+  </div>
+</DocumentFragment>
+`;

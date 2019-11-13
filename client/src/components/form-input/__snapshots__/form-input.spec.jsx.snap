@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Input Styled Test should match the snapshot 1`] = `
+.c0 {
+  margin: 1.5rem 0;
+  width: 100%;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Form Input Styled Test should match the snapshot 2`] = `
+.c0 {
+  border: none;
+  border-bottom: 2px solid #999;
+  padding: .5rem 0;
+  font-size: 1.7rem;
+  display: inline-block;
+  width: inherit;
+  font-family: inherit;
+}
+
+.c0:focus {
+  outline: none;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #ccc;
+  text-transform: capitalize;
+}
+
+.c0::-moz-placeholder {
+  color: #ccc;
+  text-transform: capitalize;
+}
+
+.c0:-ms-input-placeholder {
+  color: #ccc;
+  text-transform: capitalize;
+}
+
+.c0::placeholder {
+  color: #ccc;
+  text-transform: capitalize;
+}
+
+.c0:placeholder-shown ~ label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-3rem);
+  -ms-transform: translateY(-3rem);
+  transform: translateY(-3rem);
+}
+
+<input
+  className="c0"
+/>
+`;

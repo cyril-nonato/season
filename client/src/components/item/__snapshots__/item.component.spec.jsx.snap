@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Styles Test Container should match the snapshot  1`] = `
+.c0 {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width:700px) {
+  .c0 {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .c0 {
+    width: 50%;
+  }
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Item Styles Test Grid should match the snapshot  1`] = `
+.c0 {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: repeat(5,8rem) 2rem;
+}
+
+<div
+  className="c0"
+/>
+`;
+
+exports[`Item Styles Test Image should match the snapshot  1`] = `
+.c0 {
+  height: 100%;
+  grid-row: 1 / 5;
+  grid-column: 1 / 2;
+  justify-self: center;
+}
+
+<img
+  className="c0"
+/>
+`;
+
+exports[`Item Styles Test Status should match the snapshot  1`] = `
+.c0 {
+  grid-row: 1 / 2;
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+<div
+  className="c0"
+/>
+`;
