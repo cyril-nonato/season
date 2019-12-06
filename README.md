@@ -2,7 +2,7 @@
 
 An e-commerce app for different brands of smart phone using create-react-app
 
-##Stack that I use
+## Stack that I use
 React  
 Redux  
 Redux-saga  
@@ -11,6 +11,6 @@ Firebase
 Styled-components  
 Stripe-api
 
-##How to use
+## How to use
 Npm install
 Npm start
