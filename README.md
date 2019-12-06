@@ -14,3 +14,6 @@ Stripe-api
 ## How to use
 Npm install
 Npm start
+
+## Live demo of the app
+http://season-collection.herokuapp.com/
